@@ -10,4 +10,4 @@ Pontos importantes:
   - Observações dos objetos pessoais que precisam serem levados;
   - Escolha de qual turno deseja ir.
 
-OBS: Para apresentar as funções principais da Smart Fit.
+OBS: Para apresentar as funções principais da empresa Smart Fit.
