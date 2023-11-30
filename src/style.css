@@ -1,0 +1,516 @@
+*{
+    padding: auto;
+    margin: auto;
+}
+.centralizar {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+}
+.logo {
+    display: block;
+    width: 200px;
+    margin-left: 850px;
+    padding: 10px;
+    margin: 0px auto;
+}
+@font-face {
+    font-family: gotham-black;
+    src: url("../src/fonts/gotham-black.woff2");
+}
+
+@font-face {
+    font-family: gotham-book;
+    src: url("../src/fonts/gotham-book.woff2");
+}
+
+@font-face {
+    font-family: gotham-light;
+    src: url("../src/fonts/gotham-light.woff2");
+}
+
+@font-face {
+    font-family: gotham-bold;
+    src: url("../src/fonts/gotham-bold.woff2");
+}
+
+.tituloCentralizar {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 910px;
+}
+
+.titulo {
+    color: #333333;
+    font-family: gotham-black;
+}
+
+.barra-de-text {
+    display: block;
+    background-color: #333333;
+    width: 80px;
+    height: 9px;
+    margin-left: 0px;
+}
+
+.paragrafoCentralizar {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 910px;
+}
+
+.fraseDeInicio {
+    font-family: gotham-book;
+    margin-left: 0px;
+}
+
+.quadradoCentralizar {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadradoFazerAsBordas {
+    display: flex;
+    border: 3px solid #808080;
+    height: 500px;
+    width: 910px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10px;
+}
+
+.posicionarNomeHorarioNoCantoSuperiorEsquerda {
+    display: flexbox;
+    position: relative;
+    top: -10px;
+    left: -8px;
+}
+
+.relogio {
+    width: 36px;
+    margin-top: -400px;
+    margin-left: 10px;
+}
+
+.relogioNome{
+    margin-left: 60px;
+    margin-top: -32px;
+    font-family: gotham-book;
+    color:  #808080;
+}
+
+.perguntaPeriodoQueQuerEntrar {
+    margin-left: 20px;
+    margin-top: 35px;
+    font-family: gotham-book;
+    color: #808080;
+    font-size: 20px;
+    font-family: gotham-book;    
+}
+
+.linhas {
+    background-color: #808080;
+    width: 882px;
+    height: 2px;
+    margin-left: auto;
+}
+
+.turnos {
+    display: block;
+    margin-left: 20px;
+    color:  #808080;
+    font-family: gotham-book;
+    margin-top: -22px;
+}
+
+.horarioDaManha {
+    margin-left: 763px;
+    color:  #808080;
+    font-family: gotham-book; 
+    margin-top: -20px;
+}
+
+.horarioDaTarde {
+    display: block;
+    margin-left: 775px;
+    color:  #808080;
+    font-family: gotham-book; 
+    margin-top: -20px;
+}
+
+.horarioDaNoite {
+    display: block;
+    margin-left: 773px;
+    color:  #808080;
+    font-family: gotham-book; 
+    margin-top: -20px;
+}
+
+.fraseDoLadoDoCheckbox {
+    margin-left: 20px;
+    color: #333333;
+    font-family: gotham-light;
+    margin-top: -22px;
+    font-size: 20px;
+}
+
+.fraseDoResultado {
+    display: block;
+    margin-left: 620px;
+    color: #333333;
+    font-family: gotham-light;
+    margin-top: -22px;
+    font-size: 20px;
+}
+
+.numeroZero {
+    display: block;
+    margin-left: 870px;
+    color: #333333;
+    font-family: gotham-bold;
+    margin-top: -22px; 
+    font-size: 22px;
+}
+
+#encontrar {
+    display: block;
+    display: flex;
+    border: 0px white solid;
+    border-radius: 4px;
+    background-color: #FFB612;
+    color: #333333;
+    font-size: 18px;
+    margin-left: 120px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-family: gotham-bold;
+    position: absolute;
+}
+
+#botoes {
+    display: block;
+    display: flex;
+}
+
+#limpa {
+    display: block;
+    display: flex;
+    border: 2px white solid;
+    border-color: #808080;
+    border-radius: 4px;
+    color: #333333;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 115px;
+    padding-right: 115px;
+    font-family: gotham-bold;
+    margin-left: 500px;
+    margin-top: -48px;
+}
+
+.quadradoFazerAsBordas {
+    display: block;
+    display: flex;
+    border: 3px solid #808080;
+    height: 500px;
+    width: 910px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10px;
+}
+
+.quadradoDasObservacao {
+    display: block;
+    display: flex;
+    background-color: #dfdcdc;
+    height: 200px;
+    width: 910px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding:  10px;
+}
+
+.informações {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 227.5px;
+}
+
+.mascara {
+    text-align-last: center;
+    color: #333333;
+    font-family: gotham-bold;
+    width: auto;
+}
+
+.alinhaTudo{
+    display: flex;
+}
+
+.caraVerde {
+    margin-right: 25px;
+    width: 50px;
+}
+
+.caraCinza {
+    margin-left: 25px;
+    width: 50px;
+}
+
+.obrigatorio {
+    color: #333333;
+    font-family: gotham-light;
+}
+
+.recomendado {
+    color: #333333;
+    font-family: gotham-light;
+}
+
+.toalha {
+    text-align-last: center;
+    color: #333333;
+    font-family: gotham-bold;
+    width: auto;
+}
+
+.toalhaVerde {
+    width: 50px;
+}
+
+.toalhaCinza {
+    width: 50px;
+}
+
+.obrigatorioT {
+    color: #333333;
+    font-family: gotham-light;
+}
+
+.recomendadoT {
+    color: #333333;
+    font-family: gotham-light;
+}
+
+.bebedouro {
+    text-align-last: center;
+    color: #333333;
+    font-family: gotham-black;;
+    width: auto;
+}
+
+.garrafaVerde {
+    width: 50px;
+    margin-right: -20px;
+}
+
+.garrafaVermelha {
+    width: 50px;
+}
+
+.parcial {
+    color: #333333;
+    font-family: gotham-light;
+    margin-right: -22px;
+}
+
+.proibido {
+    color: #333333;
+    font-family: gotham-light;
+}
+
+.vestiario {
+    text-align-last: center;
+    color: #333333;
+    font-family: gotham-black;;
+    width: auto;
+}
+
+.cabideVerde {
+    margin-left: 5px;
+    width: 50px;
+}
+
+.cabideAmarelo {
+    width: 50px;
+}
+
+.cabideVermelho {
+    width: 50px;
+}
+
+.liberado {
+    color: #333333;
+    font-family: gotham-light;
+}
+
+.fechado {
+    color: #333333;
+    font-family: gotham-light;
+}
+
+.proibidoCabide {
+    color: #333333;
+    font-family: gotham-light;
+}
+
+.organizaçãoDosRetangulos {
+    display: flex;
+    width: 930px;
+    height: 500px;
+    justify-content: center;
+    
+}
+
+.retangulos {
+    border-radius: 10px;
+    background-color: #dfdcdc;
+    height: 400px;
+    width: 280px;
+    padding: 10px;
+}
+
+.abertoRetangulo {
+    color: #2FC022;
+    font-family: gotham-black;
+} 
+
+.vicenteLinhares {
+    color: #333333;
+    font-size: 17px;
+    font-family: gotham-black;
+}
+
+.ruaTibúrcio {
+    color: #333333;
+    font-family: gotham-light;
+}
+
+.meireies {
+    color: #333333;
+    font-family: gotham-light;
+}
+
+.fortaleza {
+    color: #333333;
+    font-family: gotham-light;
+}
+
+hr {
+   border: 1px solid #333333;
+}
+
+.cabecaVerde {
+    width: 65px;
+}
+
+.toalhaVerdeRetangulo {
+    width: 65px;
+}
+
+.garrafaAmarelo {
+    width: 65px;
+}
+
+.cabideVermelhoRetangulo {
+    width: 65px;
+}
+
+.diasDaSemana {
+    color: #333333;
+    font-size: 17px;
+    font-family: gotham-black;
+}
+
+.horarioDeSegASex {
+    color: #333333;
+    font-size: 16px;
+    font-family: gotham-light;
+}
+
+.sabado {
+    color: #333333;
+    font-size: 17px;
+    font-family: gotham-black;
+    margin-left: 150px;
+    margin-top: -36px;
+}
+
+.horarioDeSab {
+    color: #333333;
+    font-size: 16px;
+    font-family: gotham-light;
+    margin-left: 150px;
+}
+
+.domingo {
+    color: #333333;
+    font-size: 17px;
+    font-family: gotham-black;
+}
+
+.FechadoRetanguloAberto {
+    color: #333333;
+    font-size: 16px;
+    font-family: gotham-light;
+}
+
+.fechadoRetangulo {
+    color:  #dc0a17;
+    font-family: gotham-black;
+    font-weight: 900;
+}
+
+.vilaCarrao {
+    color: #333333;
+    font-size: 17px;
+    font-family: gotham-black;
+}
+
+.avGuilherme {
+    color: #333333;
+    font-size: 16px;
+    font-family: gotham-light;
+}
+
+.saoPaulo {
+    color: #333333;
+    font-size: 16px;
+    font-family: gotham-light;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    background-color: #333333;
+    justify-content: center;
+}
+
+.footerlogo {
+    display: block;
+    display: flex;
+    width: 50%;
+    padding: 8px;
+    margin: 10px auto;
+    display: flexbox;
+}
+
+.fraseDoFooter {
+    display: block;
+    display: flex;
+    color: #ffffff;
+    font-family: gotham-book;
+    margin-left: 15px;
+}
